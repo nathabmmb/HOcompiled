@@ -1,0 +1,5 @@
+Compilacion:
+gfortran -fPIC -c f-main.f90 -o f-main.o
+gcc -fPIC -c c-sum.c -o c-sum.o
+Linkeo:
+gfortran -v f-main.o c-sum.o -o fc-main.e

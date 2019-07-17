@@ -1,0 +1,5 @@
+Compilacion:
+gcc -fPIC -c ccp-main.ccp -o ccp-main.o
+gcc -fPIC -c ccp-sum.ccp -o ccp-sum.o
+Linkeo:
+gcc -v cpp-main.o cpp-sum.o -o ccpp-main.e #No funciona D:
