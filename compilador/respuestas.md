@@ -16,10 +16,10 @@
 	850 lineas de comentarios indicando los nombres de las librerías usadas, definiendo tipos (deftypes), estructuras (structs), funciones y demás. 
 
 ## III - Identificar las funciones en el código assembler
-	Entre las lineas 39-59 parece estar definida la función *add_numbers*, entre las lineas 10-38 parece estar definida la función *main*. Si te digo que entiendo algo más, ciertamente te miento.
+	Entre las lineas 39-59 parece estar definida la función *add\_numbers*, entre las lineas 10-38 parece estar definida la función *main*. Si te digo que entiendo algo más, ciertamente te miento.
 
 ## IV - Mencione que significan los símbolos encontrados en el objeto
-	"*T add_numbers*" indica que existe una función global llamada "add_numbers";
+	"*T add\_numbers*" indica que existe una función global llamada "add\_numbers";
 	"*T main*" indica que existe una función global llamada "main";
 	"*U printf*" indica que existe un objeto llamado "printf", pero no conoce el tipo de entrada que es (UNDEFINED). Es necesario realizar el linkeo del objeto para que se "devele" el tipo de entrada.
 
